@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+// The entry point
 @main
 struct Allergen_ScannerApp: App {
     var body: some Scene {
+        // Supplies the root for this window
+        // The HomeView is the first thing the user sees when they open up the application
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
+
